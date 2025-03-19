@@ -25,5 +25,11 @@ pipeline {
                 
             }
         }
+
+        stage('Test') {
+
+            echo 'Test hello'
+
+        }
     }
 }
